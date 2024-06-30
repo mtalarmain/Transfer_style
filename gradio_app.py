@@ -17,8 +17,10 @@ path_img_style = './prompts/'
 prompt_presets = load_prompt_presets(path_img_style)
 preset_list = list(prompt_presets.keys())
 
-def diffusion_model(prompt, img_input):
-    image = pipeline_image2image(prompt, image=img_input, strength=0.5, guidance_scale=0.0, num_inference_steps=2).images[0]
+def diffusion_model(img_input, style_group):
+    prompt_style_positive = prompt_presets[style_group]['positive']
+    prompt_style_negative = prompt_presets[style_group]['negative']
+    image = pipeline_image2image(prompt_style_positive, negative_prompt=prompt_style_negative, image=img_input, strength=0.5, guidance_scale=0.0, num_inference_steps=2).images[0]
     return image
 
 
@@ -29,7 +31,6 @@ with gr.Blocks() as demo:
         img_output = gr.Image('Output')
 
     gen_button = gr.Button('Generate')
-    gen_button.click(diffusion_model, img_input, img_output)
 
     style_group = gr.Radio(
             label="Image style",
@@ -37,3 +38,5 @@ with gr.Blocks() as demo:
             interactive=True,
             value="Realistic"
         )
+
+    gen_button.click(diffusion_model, [img_input, style_group], img_output)
