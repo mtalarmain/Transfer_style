@@ -40,3 +40,5 @@ with gr.Blocks() as demo:
         )
 
     gen_button.click(diffusion_model, [img_input, style_group], img_output)
+
+demo.launch()
