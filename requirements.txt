@@ -1,3 +1,4 @@
 gradio
-diffusers
+diffusers[torch]
 transformers
+opencv-pytHon
