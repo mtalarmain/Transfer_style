@@ -1,4 +1,4 @@
 gradio
 diffusers[torch]
 transformers
-opencv-pytHon
+opencv-python
