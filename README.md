@@ -24,8 +24,8 @@ You can load the input image on the Input section. Then it is possible to choose
 
 Generation steps: Control the trade-off between quality and speed. Higher values means more quality but more processing time.<br />
 
-10 number of iterations                            |  30 number of iterations              |  60 number of iterations       
-:-------------------------------------------------:|:-------------------------------------:|:-------------------------------------:
+10 number of iterations                                                                                   |  30 number of iterations                                                                                 |  60 number of iterations       
+:--------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:
 ![](https://github.com/mtalarmain/Transfer_style/blob/main/image/output/steps/couple_pixar_step_10.jpg)   | ![](https://github.com/mtalarmain/Transfer_style/blob/main/image/output/image_style/couple_pixar_05.jpg) | ![](https://github.com/mtalarmain/Transfer_style/blob/main/image/output/steps/couple_pixar_step_60.jpg)
 
 Guidance Scale: Higher values means the generated image will be closer to text prompt.<br />
