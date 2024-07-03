@@ -18,7 +18,7 @@ python gradio_app.py
 
 You can load the input image on the Input section. Then it is possible to choose the parameter of the model depending on your needs. 
 
-![](image/output/steps/couple_pixar_step_10.wbp)
+![](image/output/steps/couple_pixar_step_10.jpg)
 
 ## 2. Parameters
 
@@ -26,7 +26,7 @@ Generation steps: Control the trade-off between quality and speed. Higher values
 
 10 number of iterations                            |  30 number of iterations              |  60 number of iterations       
 :-------------------------------------------------:|:-------------------------------------:|:-------------------------------------:
-![](image/output/steps/couple_pixar_step_10.wbp)   | ![](image/output/image_style/couple_pixar_05.jpg) | ![](image/output/steps/couple_pixar_step_60.jpg)
+![](image/output/steps/couple_pixar_step_10.jpg)   | ![](image/output/image_style/couple_pixar_05.jpg) | ![](image/output/steps/couple_pixar_step_60.jpg)
 
 Guidance Scale: Higher values means the generated image will be closer to text prompt.<br />
 
