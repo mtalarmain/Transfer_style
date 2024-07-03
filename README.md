@@ -18,7 +18,7 @@ python gradio_app.py
 
 You can load the input image on the Input section. Then it is possible to choose the parameter of the model depending on your needs. 
 
-![](image/output/steps/couple_pixar_step_10.jpg)
+![](https://github.com/mtalarmain/Transfer_style/blob/main/image/ouput/condition_scale/couple_pixar_03.jpgs)
 
 ## 2. Parameters
 
