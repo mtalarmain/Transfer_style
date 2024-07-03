@@ -18,6 +18,8 @@ python gradio_app.py
 
 You can load the input image on the Input section. Then it is possible to choose the parameter of the model depending on your needs. 
 
+![](image/output/steps/couple_pixar_step_10.wbp)
+
 ## 2. Parameters
 
 Generation steps: Control the trade-off between quality and speed. Higher values means more quality but more processing time.<br />
