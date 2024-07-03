@@ -18,8 +18,6 @@ python gradio_app.py
 
 You can load the input image on the Input section. Then it is possible to choose the parameter of the model depending on your needs. 
 
-![](couple_pixar_03.jpg)
-
 ## 2. Parameters
 
 You can choose the image style among 6 different styles: Pixar, White/Black Movie, Pixel, Anime, Illustration, Low-Poly. Styles prompt come from exemple of positive from (https://medium.com/phygital/top-40-useful-prompts-for-stable-diffusion-xl-008c03dd0557) and negative exemple from (https://blog.segmind.com/best-negative-prompts-in-stable-diffusion/).
