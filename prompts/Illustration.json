@@ -1,4 +1,4 @@
 {
-    "positive": "illustration, colorful, comic, vibrant colors",
-    "negative": "real, realistic, watermark, text, cropped, frame"
+    "positive": "comic, graphic illustration, comic style illustration, highly detailed",
+    "negative": "signature, text, frame, watermark, worst quality, low quality, lowres, monochrome, grayscale, bad anatomy, poorly drawn face"
 }

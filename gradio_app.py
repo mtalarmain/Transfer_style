@@ -49,7 +49,7 @@ with gr.Blocks() as demo:
 
     style_group = gr.Radio(
             label="Image style",
-            info="Choose image style"
+            info="Choose image style",
             choices=preset_list,
             interactive=True,
             value="Realistic"
