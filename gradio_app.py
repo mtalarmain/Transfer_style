@@ -42,8 +42,8 @@ def diffusion_model(img_input, style_group, steps_slider, guidance_scale, contro
 with gr.Blocks() as demo:
 
     with gr.Row():
-        img_input = gr.Image('Input')
-        img_output = gr.Image('Output')
+        img_input = gr.Image('Input Image')
+        img_output = gr.Image('Output Image')
 
     gen_button = gr.Button('Generate')
 
