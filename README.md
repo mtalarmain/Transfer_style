@@ -29,7 +29,7 @@ See exemples below starting from the following input image:
 ![](couple_pic.jpg) 
 
 Pixar                      |  White/Black Movie          |  Pixel       
-:-------------------------:|:--------------   ----------:|:-----------------------------:
+:-------------------------:|:---------------------------:|:-----------------------------:
 ![](couple_pixar_05.jpg)   | ![](couple_white_black.jpg) | ![](couple_pixel.jpg)
 
 
@@ -47,7 +47,7 @@ Generation steps: Control the trade-off between quality and speed. Higher values
 Guidance Scale: Higher values means the generated image will be closer to text prompt.<br />
 
 Guidance Scale=1                         |  Guidance Scale=5        |  Guidance Scale=9         
-:-----------------------      ----------:|:------------------------:|:--------------------------------------:
+:---------------------------------------:|:------------------------:|:--------------------------------------:
 ![](couple_pixar_guidance_scale_1.jpg)   | ![](couple_pixar_05.jpg) | ![](couple_pixar_guidance_scale_9.jpg)
 
 Controlnet Conditioning: Higher values means the generated image will be closer to input image in terms of canny image. 0.5 is the best trade-off.<br />
